@@ -6,6 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    mac-width: 100vw;
+    overflow-x: hidden;
+}
+
 nav {
    height: 80px;
    display: flex;
@@ -148,7 +153,7 @@ HIGHLIGHTS
 }
 
 #highlights:before {
-    background: url('assets/wave.svg');
+    background: url('./assets/wave.svg');
     content: "";
     position: absolute;
     top: 1px;
@@ -162,7 +167,7 @@ HIGHLIGHTS
 }
 
 #highlights:after {
-    background: url('assets/wave.svg');
+    background: url('./assets/wave.svg');
     content: "";
     position: absolute;
     width: 1-1vw;
@@ -209,4 +214,15 @@ HIGHLIGHTS
 .highlight_subtitle {
     font-size: 20px;
     margin-bottom: 16px;
+}
+
+/*
+
+FEATURES
+
+*/
+
+#features {
+    height: 1000px;
+    background-color: rgba(115, 66, 214, 0.1);
 }
