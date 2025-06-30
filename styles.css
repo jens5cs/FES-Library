@@ -177,7 +177,7 @@ HIGHLIGHTS
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateY(100) rotate(180deg);
+    transform: translateY(100%) rotate(180deg);
     
 }
 
@@ -230,6 +230,7 @@ FEATURES
 
 .books {
 display: flex;
+flex-wrap: wrap;
 }
 
 .book {
