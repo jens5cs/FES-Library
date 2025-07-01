@@ -275,3 +275,16 @@ flex-wrap: wrap;
         padding-right: 6px;
         color: #bfbfbf;
     }
+
+    /*
+
+    EXPLORE
+
+    */
+
+    #explore {
+        padding-top: 8vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
