@@ -408,10 +408,23 @@ flex-wrap: wrap;
 
      /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
      @media (max-width: 768px) {
-        .header_description {
-            
+        .heqader_decsription {
+            padding: 0 24px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 26px;
+        }
+        button {
+            font-size: 18px;
+        }
+        .book {
+            width: 50;
         }
      }
+        
 
      /* SMALL PHONES, LARGE SMARTPHONES */
      @media (max-width: 550px) {
